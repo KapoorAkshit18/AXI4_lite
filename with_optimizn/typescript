@@ -1,0 +1,190 @@
+Script started on 2026-05-03 21:37:39+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;akshit_251205072_@Envy: ~[01;32makshit_251205072_@Envy[00m:[01;34m~[00m$ nano q7.sv-l q7.sv[21@verilator -Wall --cc --trace[C[C[C[C[C[C[15P-version[6Pnano -l q7.sv[18@iverilog -g2012 -o tb.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pnano -l[C[C[C[C[C[C[18@iverilog -g2012 -o tb.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pnano -l[C[C[C[C[C[Ctr q7.sv[5Pq7.sv[21@iverilog -g2012 -o tb.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi q7.sv[K[K[K[K[K[K[K[K[Kcd pgcp_vlsi
+[?2004l[?2004h]0;akshit_251205072_@Envy: ~/pgcp_vlsi[01;32makshit_251205072_@Envy[00m:[01;34m~/pgcp_vlsi[00m$ ls
+[?2004l[0m[01;34maxi4lite[0m  [01;34mc_prgmg[0m  [01;34mcpp_prgmg[0m  [01;34mlinux_exam[0m  [01;34msessions[0m  [01;34mverilog[0m
+[?2004h]0;akshit_251205072_@Envy: ~/pgcp_vlsi[01;32makshit_251205072_@Envy[00m:[01;34m~/pgcp_vlsi[00m$ cd axi4lite
+[?2004l[?2004h]0;akshit_251205072_@Envy: ~/pgcp_vlsi/axi4lite[01;32makshit_251205072_@Envy[00m:[01;34m~/pgcp_vlsi/axi4lite[00m$ ls
+[?2004laxi4lite_slave.v  [0m[01;34maxi_lates[0m  axit4lite_master.v  tb.v  tb_2.v  top.v
+[?2004h]0;akshit_251205072_@Envy: ~/pgcp_vlsi/axi4lite[01;32makshit_251205072_@Envy[00m:[01;34m~/pgcp_vlsi/axi4lite[00m$ cd axi_lates
+[?2004l[?2004h]0;akshit_251205072_@Envy: ~/pgcp_vlsi/axi4lite/axi_lates[01;32makshit_251205072_@Envy[00m:[01;34m~/pgcp_vlsi/axi4lite/axi_lates[00m$ ls
+[?2004l axi4lite_system.vcd        [0m[01;32msim.out[0m                   tb_tops.v                    top.v
+ master.v                   slave.v                   tb_tops.v:Zone.Identifier
+ master.v:Zone.Identifier   slave.v:Zone.Identifier  'top (1).v:Zone.Identifier'
+[?2004h]0;akshit_251205072_@Envy: ~/pgcp_vlsi/axi4lite/axi_lates[01;32makshit_251205072_@Envy[00m:[01;34m~/pgcp_vlsi/axi4lite/axi_lates[00m$ lscd axi_latesls[Kcd axi4litels[Kcd pgcp_vlsi[2Pnano q7.sv-l q7.sv[21@verilator -Wall --cc --trace[C[C[C[C[C[C[15P-version[6Pnano -l q7.sv[18@iverilog -g2012 -o tb.out[C[C[C[C[C[C[18Pnano -l[C[C[C[C[C[C[18@iverilog -g2012 -o tb.out[C[C[C[C[C[C[18Pnano -l[C[C[C[C[C[Ctr q7.sv[5Pq7.sv[21@iverilog -g2012 -o tb.out[C[C[C[C[C[Cvi q7.sv[K[23@iverilog -g2012 -o tb.out[C[C[C[C[C[Cvi q7.sv[Ktouch q{1,2,3,4,5,6,7}.svls[Kcd intercom[3@mkdir[C[C[C[C[C[C[C[C[Crmdir Inter Comm[3Pcd[C[C[C[C[C[C[C[C[C[C[C[3@mkdir[C[C[C[C[C[C[C[C[C[C[Ccd ..[Ktouch q{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21}.sv [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd randomization[3@mkdir[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd dv[3Plsgtkwave axi4lite_system.vcdls[Kvvp sim.outls[Kiverilog -o sim.out master.v slave.v top.v tb_tops.v
+[?2004l[?2004h]0;akshit_251205072_@Envy: ~/pgcp_vlsi/axi4lite/axi_lates[01;32makshit_251205072_@Envy[00m:[01;34m~/pgcp_vlsi/axi4lite/axi_lates[00m$ iverilog -o sim.out master.v slave.v top.v tb_tops.vls[Kcd axi_latesls[Kiverilog -o sim.out master.v slave.v top.v tb_tops.v[Kvvp sim.out
+[?2004lVCD info: dumpfile axi4lite_system.vcd opened for output.
+
+--- TEST 1:            Basic Write-Read Test ---
+[145000] WRITE: Addr=0x00000000, Data=0xdeadbeef, Strb=1111, Resp=   OKAY
+[215000] READ:  Addr=0x00000000, Data=0xdeadbeef, Resp=   OKAY
+PASS: Data verified successfully
+
+--- TEST 2: Sequential Register Writes ---
+[285000] WRITE: Addr=0x00000000, Data=0xa0000000, Strb=1111, Resp=   OKAY
+[355000] WRITE: Addr=0x00000004, Data=0xa0000001, Strb=1111, Resp=   OKAY
+[425000] WRITE: Addr=0x00000008, Data=0xa0000002, Strb=1111, Resp=   OKAY
+[495000] WRITE: Addr=0x0000000c, Data=0xa0000003, Strb=1111, Resp=   OKAY
+[565000] WRITE: Addr=0x00000010, Data=0xa0000004, Strb=1111, Resp=   OKAY
+[635000] WRITE: Addr=0x00000014, Data=0xa0000005, Strb=1111, Resp=   OKAY
+[705000] WRITE: Addr=0x00000018, Data=0xa0000006, Strb=1111, Resp=   OKAY
+[775000] WRITE: Addr=0x0000001c, Data=0xa0000007, Strb=1111, Resp=   OKAY
+[845000] READ:  Addr=0x00000000, Data=0xa0000000, Resp=   OKAY
+  Register 0: PASS
+[915000] READ:  Addr=0x00000004, Data=0xa0000001, Resp=   OKAY
+  Register 1: PASS
+[985000] READ:  Addr=0x00000008, Data=0xa0000002, Resp=   OKAY
+  Register 2: PASS
+[1055000] READ:  Addr=0x0000000c, Data=0xa0000003, Resp=   OKAY
+  Register 3: PASS
+[1125000] READ:  Addr=0x00000010, Data=0xa0000004, Resp=   OKAY
+  Register 4: PASS
+[1195000] READ:  Addr=0x00000014, Data=0xa0000005, Resp=   OKAY
+  Register 5: PASS
+[1265000] READ:  Addr=0x00000018, Data=0xa0000006, Resp=   OKAY
+  Register 6: PASS
+[1335000] READ:  Addr=0x0000001c, Data=0xa0000007, Resp=   OKAY
+  Register 7: PASS
+
+--- TEST 3: Byte-Enable Write ---
+[1405000] WRITE: Addr=0x00000010, Data=0x00000000, Strb=1111, Resp=   OKAY
+[1475000] WRITE: Addr=0x00000010, Data=0x12345678, Strb=0001, Resp=   OKAY
+[1545000] READ:  Addr=0x00000010, Data=0x00000078, Resp=   OKAY
+  Byte 0 write: PASS
+
+--- TEST 4:          Register Overwrite Test ---
+[1615000] WRITE: Addr=0x00000000, Data=0x5555aaaa, Strb=1111, Resp=   OKAY
+[1685000] READ:  Addr=0x00000000, Data=0x5555aaaa, Resp=   OKAY
+PASS: Data verified successfully
+
+--- TEST 5: Back-to-Back Operations ---
+[1755000] WRITE: Addr=0x00000020, Data=0x11111111, Strb=1111, Resp=   OKAY
+[1825000] WRITE: Addr=0x00000024, Data=0x22222222, Strb=1111, Resp=   OKAY
+[1895000] WRITE: Addr=0x00000028, Data=0x33333333, Strb=1111, Resp=   OKAY
+[1965000] READ:  Addr=0x00000020, Data=0x11111111, Resp=   OKAY
+[2035000] READ:  Addr=0x00000024, Data=0x22222222, Resp=   OKAY
+[2105000] READ:  Addr=0x00000028, Data=0x33333333, Resp=   OKAY
+  Back-to-back operations: PASS
+
+--- TEST 6: All Registers Pattern Test ---
+[2175000] WRITE: Addr=0x00000000, Data=0xbeef0000, Strb=1111, Resp=   OKAY
+[2245000] WRITE: Addr=0x00000004, Data=0xbeef0001, Strb=1111, Resp=   OKAY
+[2315000] WRITE: Addr=0x00000008, Data=0xbeef0002, Strb=1111, Resp=   OKAY
+[2385000] WRITE: Addr=0x0000000c, Data=0xbeef0003, Strb=1111, Resp=   OKAY
+[2455000] WRITE: Addr=0x00000010, Data=0xbeef0004, Strb=1111, Resp=   OKAY
+[2525000] WRITE: Addr=0x00000014, Data=0xbeef0005, Strb=1111, Resp=   OKAY
+[2595000] WRITE: Addr=0x00000018, Data=0xbeef0006, Strb=1111, Resp=   OKAY
+[2665000] WRITE: Addr=0x0000001c, Data=0xbeef0007, Strb=1111, Resp=   OKAY
+[2735000] WRITE: Addr=0x00000020, Data=0xbeef0008, Strb=1111, Resp=   OKAY
+[2805000] WRITE: Addr=0x00000024, Data=0xbeef0009, Strb=1111, Resp=   OKAY
+[2875000] WRITE: Addr=0x00000028, Data=0xbeef000a, Strb=1111, Resp=   OKAY
+[2945000] WRITE: Addr=0x0000002c, Data=0xbeef000b, Strb=1111, Resp=   OKAY
+[3015000] WRITE: Addr=0x00000030, Data=0xbeef000c, Strb=1111, Resp=   OKAY
+[3085000] WRITE: Addr=0x00000034, Data=0xbeef000d, Strb=1111, Resp=   OKAY
+[3155000] WRITE: Addr=0x00000038, Data=0xbeef000e, Strb=1111, Resp=   OKAY
+[3225000] WRITE: Addr=0x0000003c, Data=0xbeef000f, Strb=1111, Resp=   OKAY
+[3295000] READ:  Addr=0x00000000, Data=0xbeef0000, Resp=   OKAY
+[3365000] READ:  Addr=0x00000004, Data=0xbeef0001, Resp=   OKAY
+[3435000] READ:  Addr=0x00000008, Data=0xbeef0002, Resp=   OKAY
+[3505000] READ:  Addr=0x0000000c, Data=0xbeef0003, Resp=   OKAY
+[3575000] READ:  Addr=0x00000010, Data=0xbeef0004, Resp=   OKAY
+[3645000] READ:  Addr=0x00000014, Data=0xbeef0005, Resp=   OKAY
+[3715000] READ:  Addr=0x00000018, Data=0xbeef0006, Resp=   OKAY
+[3785000] READ:  Addr=0x0000001c, Data=0xbeef0007, Resp=   OKAY
+[3855000] READ:  Addr=0x00000020, Data=0xbeef0008, Resp=   OKAY
+[3925000] READ:  Addr=0x00000024, Data=0xbeef0009, Resp=   OKAY
+[3995000] READ:  Addr=0x00000028, Data=0xbeef000a, Resp=   OKAY
+[4065000] READ:  Addr=0x0000002c, Data=0xbeef000b, Resp=   OKAY
+[4135000] READ:  Addr=0x00000030, Data=0xbeef000c, Resp=   OKAY
+[4205000] READ:  Addr=0x00000034, Data=0xbeef000d, Resp=   OKAY
+[4275000] READ:  Addr=0x00000038, Data=0xbeef000e, Resp=   OKAY
+[4345000] READ:  Addr=0x0000003c, Data=0xbeef000f, Resp=   OKAY
+  All 16 registers: PASS
+
+--- TEST 7: Alternating Write-Read ---
+[4415000] WRITE: Addr=0x00000000, Data=0xcafe0000, Strb=1111, Resp=   OKAY
+[4485000] READ:  Addr=0x00000000, Data=0xcafe0000, Resp=   OKAY
+[4555000] WRITE: Addr=0x00000004, Data=0xcafe0001, Strb=1111, Resp=   OKAY
+[4625000] READ:  Addr=0x00000004, Data=0xcafe0001, Resp=   OKAY
+[4695000] WRITE: Addr=0x00000008, Data=0xcafe0002, Strb=1111, Resp=   OKAY
+[4765000] READ:  Addr=0x00000008, Data=0xcafe0002, Resp=   OKAY
+[4835000] WRITE: Addr=0x0000000c, Data=0xcafe0003, Strb=1111, Resp=   OKAY
+[4905000] READ:  Addr=0x0000000c, Data=0xcafe0003, Resp=   OKAY
+[4975000] WRITE: Addr=0x00000010, Data=0xcafe0004, Strb=1111, Resp=   OKAY
+[5045000] READ:  Addr=0x00000010, Data=0xcafe0004, Resp=   OKAY
+[5115000] WRITE: Addr=0x00000014, Data=0xcafe0005, Strb=1111, Resp=   OKAY
+[5185000] READ:  Addr=0x00000014, Data=0xcafe0005, Resp=   OKAY
+[5255000] WRITE: Addr=0x00000018, Data=0xcafe0006, Strb=1111, Resp=   OKAY
+[5325000] READ:  Addr=0x00000018, Data=0xcafe0006, Resp=   OKAY
+[5395000] WRITE: Addr=0x0000001c, Data=0xcafe0007, Strb=1111, Resp=   OKAY
+[5465000] READ:  Addr=0x0000001c, Data=0xcafe0007, Resp=   OKAY
+  Alternating operations: PASS
+
+--- TEST 8: Random Access Stress Test ---
+[5535000] WRITE: Addr=0x00000010, Data=0xc0895e81, Strb=1111, Resp=   OKAY
+[5605000] READ:  Addr=0x00000010, Data=0xc0895e81, Resp=   OKAY
+[5675000] WRITE: Addr=0xffffffe4, Data=0xb1f05663, Strb=1111, Resp= SLVERR
+[5745000] READ:  Addr=0xffffffe4, Data=0xdeadbeef, Resp= SLVERR
+[5815000] WRITE: Addr=0x00000034, Data=0x46df998d, Strb=1111, Resp=   OKAY
+[5885000] READ:  Addr=0x00000034, Data=0x46df998d, Resp=   OKAY
+[5955000] WRITE: Addr=0xffffffd4, Data=0x89375212, Strb=1111, Resp= SLVERR
+[6025000] READ:  Addr=0xffffffd4, Data=0xdeadbeef, Resp= SLVERR
+[6095000] WRITE: Addr=0x00000004, Data=0x06d7cd0d, Strb=1111, Resp=   OKAY
+[6165000] READ:  Addr=0x00000004, Data=0x06d7cd0d, Resp=   OKAY
+[6235000] WRITE: Addr=0x00000018, Data=0x1e8dcd3d, Strb=1111, Resp=   OKAY
+[6305000] READ:  Addr=0x00000018, Data=0x1e8dcd3d, Resp=   OKAY
+[6375000] WRITE: Addr=0x00000034, Data=0x462df78c, Strb=1111, Resp=   OKAY
+[6445000] READ:  Addr=0x00000034, Data=0x462df78c, Resp=   OKAY
+[6515000] WRITE: Addr=0x00000024, Data=0xe33724c6, Strb=1111, Resp=   OKAY
+[6585000] READ:  Addr=0x00000024, Data=0xe33724c6, Resp=   OKAY
+[6655000] WRITE: Addr=0xffffffd4, Data=0xd513d2aa, Strb=1111, Resp= SLVERR
+[6725000] READ:  Addr=0xffffffd4, Data=0xdeadbeef, Resp= SLVERR
+[6795000] WRITE: Addr=0x00000014, Data=0xbbd27277, Strb=1111, Resp=   OKAY
+[6865000] READ:  Addr=0x00000014, Data=0xbbd27277, Resp=   OKAY
+[6935000] WRITE: Addr=0xffffffc8, Data=0x47ecdb8f, Strb=1111, Resp= SLVERR
+[7005000] READ:  Addr=0xffffffc8, Data=0xdeadbeef, Resp= SLVERR
+[7075000] WRITE: Addr=0x00000008, Data=0xe77696ce, Strb=1111, Resp=   OKAY
+[7145000] READ:  Addr=0x00000008, Data=0xe77696ce, Resp=   OKAY
+[7215000] WRITE: Addr=0xffffffe0, Data=0xe2ca4ec5, Strb=1111, Resp= SLVERR
+[7285000] READ:  Addr=0xffffffe0, Data=0xdeadbeef, Resp= SLVERR
+[7355000] WRITE: Addr=0x00000030, Data=0xde8e28bd, Strb=1111, Resp=   OKAY
+[7425000] READ:  Addr=0x00000030, Data=0xde8e28bd, Resp=   OKAY
+[7495000] WRITE: Addr=0xfffffff4, Data=0xb2a72665, Strb=1111, Resp= SLVERR
+[7565000] READ:  Addr=0xfffffff4, Data=0xdeadbeef, Resp= SLVERR
+[7635000] WRITE: Addr=0xffffffcc, Data=0x0573870a, Strb=1111, Resp= SLVERR
+[7705000] READ:  Addr=0xffffffcc, Data=0xdeadbeef, Resp= SLVERR
+[7775000] WRITE: Addr=0x00000000, Data=0x10642120, Strb=1111, Resp=   OKAY
+[7845000] READ:  Addr=0x00000000, Data=0x10642120, Resp=   OKAY
+[7915000] WRITE: Addr=0x00000028, Data=0xcecccc9d, Strb=1111, Resp=   OKAY
+[7985000] READ:  Addr=0x00000028, Data=0xcecccc9d, Resp=   OKAY
+[8055000] WRITE: Addr=0xffffffd8, Data=0x8983b813, Strb=1111, Resp= SLVERR
+[8125000] READ:  Addr=0xffffffd8, Data=0xdeadbeef, Resp= SLVERR
+[8195000] WRITE: Addr=0xfffffff4, Data=0xa9a7d653, Strb=1111, Resp= SLVERR
+[8265000] READ:  Addr=0xfffffff4, Data=0xdeadbeef, Resp= SLVERR
+  Random access stress: PASS
+
+
+========================================
+  Test Summary
+========================================
+  Total Tests:  8
+  Passed:       8
+  Failed:       0
+  Pass Rate:    100%
+========================================
+
+ALL TESTS PASSED!
+
+tb_tops.v:313: $finish called at 8365000 (1ps)
+[?2004h]0;akshit_251205072_@Envy: ~/pgcp_vlsi/axi4lite/axi_lates[01;32makshit_251205072_@Envy[00m:[01;34m~/pgcp_vlsi/axi4lite/axi_lates[00m$ end
+[?2004lCommand 'end' not found, but there are 14 similar ones.
+[?2004h]0;akshit_251205072_@Envy: ~/pgcp_vlsi/axi4lite/axi_lates[01;32makshit_251205072_@Envy[00m:[01;34m~/pgcp_vlsi/axi4lite/axi_lates[00m$ endscript
+[?2004lCommand 'endscript' not found, did you mean:
+  command 'enscript' from deb enscript (1.6.5.90-3.1)
+Try: sudo apt install <deb name>
+[?2004h]0;akshit_251205072_@Envy: ~/pgcp_vlsi/axi4lite/axi_lates[01;32makshit_251205072_@Envy[00m:[01;34m~/pgcp_vlsi/axi4lite/axi_lates[00m$ end
+[?2004lCommand 'end' not found, but there are 14 similar ones.
+[?2004h]0;akshit_251205072_@Envy: ~/pgcp_vlsi/axi4lite/axi_lates[01;32makshit_251205072_@Envy[00m:[01;34m~/pgcp_vlsi/axi4lite/axi_lates[00m$ scriptend[K[K[K[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2026-05-03 21:39:36+00:00 [COMMAND_EXIT_CODE="127"]
